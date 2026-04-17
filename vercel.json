@@ -1,8 +1,9 @@
 {
   "version": 2,
+  "rootDirectory": "client",
   "builds": [
     {
-      "src": "client/index.html",
+      "src": "index.html",
       "use": "@vercel/static-build",
       "config": { "distDir": "dist" }
     }
