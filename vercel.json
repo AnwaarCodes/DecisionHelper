@@ -1,6 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "builds": [
     {
       "src": "client/index.html",
@@ -10,10 +9,5 @@
   ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
-=======
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
->>>>>>> aea10620870ce6c4039a19108957b8e80b46d45c
   ]
 }
