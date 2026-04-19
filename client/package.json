@@ -12,13 +12,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.27",
     "postcss": "^8.5.8",
     "tailwindcss": "^4.2.2",
-    "vite": "^8.0.1",
-    "@vitejs/plugin-react": "^4.2.1"
+    "vite": "^8.0.1"
   },
   "dependencies": {
+    "@rolldown/binding-win32-x64-msvc": "^1.0.0-rc.12",
     "@tailwindcss/postcss": "^4.2.2",
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.7.0",
@@ -26,5 +27,4 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.13.2"
   }
-
 }
